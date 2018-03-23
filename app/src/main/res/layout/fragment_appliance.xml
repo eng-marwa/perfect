@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    android:padding="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ad_title"
+            android:inputType="text"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#212121"
+            android:background="@drawable/text_shape"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="8dp"
+            android:text="@string/land_ad_title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#727272"
+            android:textStyle="italic"/>
+
+
+
+        <include layout="@layout/item_divider" />
+        <Spinner
+            android:id="@+id/spinner"
+            android:spinnerMode="dropdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/text_shape"
+            android:padding="8dp"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="8dp"
+            android:text="@string/select_category"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#727272"
+            android:textStyle="italic"/>
+        <include layout="@layout/item_divider" />
+
+
+        <EditText
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/land_desc"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:background="@drawable/text_shape"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#212121" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="8dp"
+            android:text="@string/land_desc_eg"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#727272"
+            android:textStyle="italic"/>
+
+        <include layout="@layout/item_divider" />
+
+
+        <ImageButton
+            android:id="@+id/image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:hint="@string/land_desc"
+            android:maxLines="1"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#212121"
+            android:background="@drawable/ic_camera" android:contentDescription="@string/todo" android:focusable="true" />
+
+
+        <include layout="@layout/item_divider" />
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_shape"
+            android:ellipsize="end"
+            android:hint="@string/price"
+            android:inputType="number"
+            android:maxLines="1"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#212121" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="8dp"
+            android:text="@string/suggest_price"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#727272"
+            android:textStyle="italic" />
+
+        <include layout="@layout/item_divider" />
+
+
+        <EditText
+            android:id="@+id/priceDesView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/priceDesc"
+            android:inputType="text"
+            android:background="@drawable/text_shape"
+            android:maxLines="1"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#212121" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="8dp"
+            android:text="@string/price_desc"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#727272"
+            android:textStyle="italic" />
+
+
+        <include layout="@layout/item_divider" />
+
+        <EditText
+            android:id="@+id/areaView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_shape"
+            android:ellipsize="end"
+            android:hint="@string/area"
+            android:inputType="number"
+            android:maxLines="1"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#212121" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="8dp"
+            android:text="@string/area_desc"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#727272"
+            android:textStyle="italic" />
+
+        <include layout="@layout/item_divider" />
+
+        <EditText
+            android:id="@+id/locView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/location"
+            android:inputType="text"
+            android:background="@drawable/text_shape"
+            android:maxLines="1"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#212121" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="8dp"
+            android:text="@string/write_loc"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#727272"
+            android:textStyle="italic" />
+
+        <include layout="@layout/item_divider" />
+        <EditText
+            android:id="@+id/addressView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/address"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:background="@drawable/text_shape"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#212121" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="8dp"
+            android:text="@string/write_address"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#727272"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

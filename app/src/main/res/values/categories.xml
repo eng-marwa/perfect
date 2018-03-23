@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="categories">
+        <item></item>
+        <item>Air conditioner</item>
+        <item>Mobiles and Tablet</item>
+        <item>Air fryer</item>
+        <item>Dishwasher</item>
+        <item>Microwaves</item>
+        <item>Hair dryer</item>
+        <item>Kettle</item>
+        <item>Electric cooker</item>
+        <item>Vacuum Cleaners</item>
+        <item>Oven</item>
+        <item>Refrigerator</item>
+        <item>Television</item>
+    </array>
+</resources>

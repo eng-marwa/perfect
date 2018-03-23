@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "959796678373",
+    "firebase_url": "https://perfect-d9529.firebaseio.com",
+    "project_id": "perfect-d9529",
+    "storage_bucket": "perfect-d9529.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959796678373:android:44c65cba8a799823",
+        "android_client_info": {
+          "package_name": "eg.com.perfect_contracting.perfect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959796678373-701g6l82eaq8rhkupmeo5239q2c594m5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eg.com.perfect_contracting.perfect",
+            "certificate_hash": "383237fe79b3ccf4e4dc2c4af02d1c84f90bdd2c"
+          }
+        },
+        {
+          "client_id": "959796678373-j92puu6tlo0kmpbv5vn27filqpcjtoia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ7mF22kNWrm5x91r84Tc__-91zrMj-HU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959796678373-j92puu6tlo0kmpbv5vn27filqpcjtoia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

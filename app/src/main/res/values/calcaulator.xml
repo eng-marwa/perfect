@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="services">
+        <item>Design</item>
+        <item>Material</item>
+        <item>Real Estate</item>
+        <item>Finishing</item>
+
+    </array>
+    <array name="offers">
+        <item>800LE/m<sup><small> 2 </small></sup></item>
+        <item>1200LE/m<sup><small> 2 </small></sup></item>
+        <item>1600LE/m<sup><small> 2 </small></sup></item>
+    </array>
+    <array name="serviceTypes">
+        <item>Architecture</item>
+        <item>Civil</item>
+        <item>Interior</item>
+        <item>Exterior</item>
+    </array>
+</resources>
